@@ -1,0 +1,8 @@
+<?php
+if (isset($_POST['fecha'])) {
+    $fechaInicio = new DateTime('2024-01-01');
+    $fechaSeleccionada = new DateTime($_POST['fecha']);
+    $intervalo = $fechaInicio->diff($fechaSeleccionada);
+    echo $intervalo->days;
+}
+?>

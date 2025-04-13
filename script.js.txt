@@ -1,0 +1,13 @@
+$(document).ready(function(){
+  $('#calcular').click(function(){
+    const fechaSeleccionada = $('#fecha').val();
+    if (!fechaSeleccionada) {
+      $('#resultado').text('Por favor selecciona una fecha válida.');
+      return;
+    }
+
+    $.post('calcular.php', { fecha: fechaSeleccionada }, function(data) {
+      $('#resultado').text('Han pasado ' + data + ' días desde el 1 de enero de 2024.');
+    });
+  });
+});
