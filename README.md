@@ -12,3 +12,9 @@ Esta aplicación permite calcular cuántos días han pasado desde el 1 de enero 
 
 ## Uso
 Selecciona una fecha y haz clic en "Calcular".
+
+# Versión activa en línea
+
+Puedes probar la calculadora directamente en el sitio web oficial: [calculadoradediasfechasanos.com](https://calculadoradediasfechasanos.com/)  
+Accede a todas las funcionalidades en tiempo real y experimenta cómo funciona la herramienta sin necesidad de instalar nada.
+
